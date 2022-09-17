@@ -1,18 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { } from 'reactstrap';
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <header>
-
-      </header>
+      <Header/>
       <main>
       
       </main>
-      <footer>
-
-      </footer>
+      <Footer />
     </div>
   );
 }
