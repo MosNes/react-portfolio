@@ -22,20 +22,20 @@ function Navigation(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/about/">About Me</NavLink>
+              <NavLink href="#">About Me</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/portfolio/">
+              <NavLink href="#">
                 Portfolio
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact/">
+              <NavLink href="#">
                 Contact
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/resume/">
+              <NavLink href="#">
                 Resume
               </NavLink>
             </NavItem>
