@@ -17,7 +17,7 @@ function Navigation(args) {
   return (
     <div>
       <Navbar {...args}>
-        <NavbarBrand href="/" className='navTitle'>J Moses Nester</NavbarBrand>
+        <NavbarBrand href="/" className='navTitle fw-semibold'>J Moses Nester</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>

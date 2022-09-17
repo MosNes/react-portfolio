@@ -3,7 +3,8 @@ import React from 'react';
 const Footer = (props) => {
 
     return(
-        <footer className="bg-secondary text-light container-fluid">
+        <footer className="bg-secondary text-light">
+            <div className="borderLine"></div>
             <div className='d-flex p-2 justify-content-center'>
                 <a href="https://github.com/MosNes" target="blank" >
                     <img alt="Github Logo" className='footerImg' src={require('../../assets/images/Github-Logo-White.png')}></img>

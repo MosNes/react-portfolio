@@ -11,12 +11,25 @@
     color:var(--secondary-color)
 }
 
+.popText{
+    color:var(--splash-color)
+}
+
 .bioPic {
     max-width: 200px;
     height:auto;
     width: auto;
-    margin-left: 10px;
-    margin-right: 10px;
+}
+
+.borderLine {
+    border-bottom: 5px solid var(--splash-color);
+    max-width: 100%;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+.navTitle{
+    color:var(--tertiary-color)
 }
 
 .navActive{
@@ -28,6 +41,5 @@
     max-height: 75px;
     height:auto;
     width: auto;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
