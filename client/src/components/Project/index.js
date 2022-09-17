@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col, CardBody, CardTitle, CardText } from "reactstrap";
+import { Card, Col, CardBody, CardTitle, CardText, CardSubtitle } from "reactstrap";
 
 
 
@@ -10,11 +10,14 @@ const Project = ( {project} ) => {
                 <img alt={project.name} src={require(`../../assets/images/project-images/${project.imageFile}`)} />
                 <CardBody>
                     <CardTitle tag="h5">
-                        <a className="text-decoration-none linkText" href={project.url} target="_blank" rel="noreferrer">{project.name}</a>
+                        <a className="text-decoration-none linkText" href={project.deployedUrl} target="_blank" rel="noreferrer">{project.name}</a>
                     </CardTitle>
                     <CardText>
                         {project.description}
                     </CardText>
+                    <CardSubtitle>
+                        <a className="text-decoration-none linkText" href={project.githubUrl} target="_blank" rel="noreferrer">GitHub</a>
+                    </CardSubtitle>
                 </CardBody>
             </Card>
         </Col>  
