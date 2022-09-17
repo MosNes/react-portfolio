@@ -6,7 +6,7 @@ import { Card, Col, CardBody, CardTitle, CardText } from "reactstrap";
 const Project = ( {project} ) => {
     return(
         <Col md="4">
-            <Card color="secondary" inverse={true}>
+            <Card color="secondary" inverse={true} className="m-2">
                 <img alt={project.name} src={require(`../../assets/images/project-images/${project.imageFile}`)} />
                 <CardBody>
                     <CardTitle tag="h5">
