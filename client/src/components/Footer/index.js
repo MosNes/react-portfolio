@@ -3,8 +3,10 @@ import React from 'react';
 const Footer = (props) => {
 
     return(
-        <footer>
-            This is a header
+        <footer className="bg-secondary text-light container-fluid">
+            <div className='d-flex p-2'>
+                
+            </div>
         </footer>
     )
 }
