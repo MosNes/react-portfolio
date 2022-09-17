@@ -5,7 +5,7 @@ const Header = (props) => {
 
     return(
         <header>
-            <Navigation color="secondary" dark="true" full="false" expand="md" container="fluid" />
+            <Navigation color="secondary" dark={true} expand="md" container="fluid" />
             <div className="borderLine"></div>
         </header>
     )

@@ -8,11 +8,19 @@
 }
 
 .bodyText {
-    color:var(--secondary-color)
+    color:var(--secondary-color);
 }
 
 .popText{
-    color:var(--splash-color)
+    color:var(--splash-color);
+}
+
+.linkText{
+    color:var(--tertiary-color);
+}
+
+.linkText:hover{
+    color:var(--splash-color);
 }
 
 .bioPic {
