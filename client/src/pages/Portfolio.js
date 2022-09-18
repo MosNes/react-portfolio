@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Card } from 'reactstrap';
+import { Container, Row } from 'reactstrap';
 import Project from '../components/Project';
 
 const Portfolio = () => {
@@ -27,7 +27,7 @@ const Portfolio = () => {
 			name: 'Placeholder Project',
 			description: 'This is a placeholder for a future project.',
 			githubUrl: 'https://github.com/MosNes',
-            deployedUrl:'#',
+            deployedUrl:'https://github.com/MosNes',
 			imageFile: '2.jpg',
             id: 3
 		},
@@ -35,7 +35,7 @@ const Portfolio = () => {
 			name: 'Placeholder Project',
 			description: 'This is a placeholder for a future project.',
 			githubUrl: 'https://github.com/MosNes',
-            deployedUrl:'#',
+            deployedUrl:'https://github.com/MosNes',
 			imageFile: '3.jpg',
             id: 4
 		},
@@ -43,7 +43,7 @@ const Portfolio = () => {
 			name: 'Placeholder Project',
 			description: 'This is a placeholder for a future project.',
 			githubUrl: 'https://github.com/MosNes',
-            deployedUrl:'#',
+            deployedUrl:'https://github.com/MosNes',
 			imageFile: '4.jpg',
             id: 5
 		},
@@ -51,7 +51,7 @@ const Portfolio = () => {
 			name: 'Placeholder Project',
 			description: 'This is a placeholder for a future project.',
 			githubUrl: 'https://github.com/MosNes',
-            deployedUrl:'#',
+            deployedUrl:'https://github.com/MosNes',
 			imageFile: '5.jpg',
             id: 6
 		},
