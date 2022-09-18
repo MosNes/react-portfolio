@@ -1,0 +1,24 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio site created with React",
+  "main": "./client/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "cd client && npm run build",
+    "deploy": "gh-pages -d client/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MosNes/react-portfolio.git"
+  },
+  "author": "MosNes",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/MosNes/react-portfolio/issues"
+  },
+  "homepage": "https://mosnes.github.io/react-portfolio",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
