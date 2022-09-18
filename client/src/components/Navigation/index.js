@@ -22,21 +22,21 @@ function Navigation(props) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="#" onClick={() => props.setCurrentPage('About')}>
+              <NavLink href="#" onClick={() => props.setCurrentPage('About')} className={props.currentPage === 'About' ? 'navActive' : ''}>
                 About Me</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#" onClick={() => props.setCurrentPage('Portfolio')}>
+              <NavLink href="#" onClick={() => props.setCurrentPage('Portfolio')} className={props.currentPage === 'Portfolio' ? 'navActive' : ''}>
                 Portfolio
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#" onClick={() => props.setCurrentPage('Contact')}>
+              <NavLink href="#" onClick={() => props.setCurrentPage('Contact')} className={props.currentPage === 'Contact' ? 'navActive' : ''}>
                 Contact
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#" onClick={() => props.setCurrentPage('Resume')}>
+              <NavLink href="#" onClick={() => props.setCurrentPage('Resume')} className={props.currentPage === 'Resume' ? 'navActive' : ''}>
                 Resume
               </NavLink>
             </NavItem>
