@@ -1,9 +1,10 @@
 import React from 'react';
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from './components/Header';
+import Footer from './components/Footer';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact'
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <main className='container-fluid'>
         {/* <About /> */}
         {/* <Portfolio /> */}
-        <Contact />
+        {/* <Contact /> */}
+        <Resume />
       </main>
       <Footer />
     </div>
