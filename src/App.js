@@ -19,7 +19,7 @@ function App() {
     <div className="App bg-dark text-light">
       {/* pass currentPage and setCurrentPage as props to the Header, since Nav is nested in Header */}
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage}/>
-      <main className='container-fluid'>
+      <main className='main-container'>
 
         {/* Render component based on value of currentPage, if error, default to About page */}
         {currentPage === 'About' ? <About /> : 

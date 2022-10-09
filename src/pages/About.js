@@ -2,20 +2,31 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 const About = () => {
-    return(
-        <Container className="mt-4 mb-4">
+    return (
+        <>
+            <section class="hero">
+                <div class="title-bar">
+                    <h1>J. MOSES NESTER</h1>
+                </div>
+            </section>
+            <div class="borderLine"></div>
+            <section id="bio" class="bio-section">
+                <Row className="my-4">
+                    <Col className="col-12 col-md-4 d-flex justify-content-center">
+                        <img alt="J Moses Nester" className="bioPic mb-4" src={require('../assets/images/Headshot.jpg')} />
+                    </Col>
+                    <Col className="bodyText col-12 col-md-8">
+                        <h3>About Me</h3>
+                        <p>I'm a former published comic artist and current IT professional with a passion for creative problem-solving. I am currently building my skills with JavaScript, React, and Vue with the goal of becoming a professional developer. With a background in IT and a tenacious appetite for technical knowlege, I hope to put these skills to use on exciting and challenging projects for clients all over the world.</p>
+                    </Col>
+                </Row>
+                
+
+            </section>
+
             
-            <Row>
-                <Col className="mb-4">
-                    <img alt="J Moses Nester" className="bioPic" src={require('../assets/images/Headshot.jpg')} />
-                </Col>
-                <Col className="bodyText">
-                    <h3>About Me</h3>
-                    <p>Bro ipsum dolor sit amet punter ski bum rock roll frozen chicken heads single track rig. Washboard schraeder liftie, glades gnar slash schwag steed. Free ride T-bar acro trucks fully hammer crunchy pillow popping, bonk back country corn hardtail. Ripping rigid trail swag 360 pipe huck. Tele butter gnar drop. Ski bum reverse camber backside glades bear trap schwag bowl face shots taco mute ripper noodle line skid poaching. Poaching deck greasy bonk, sharkbite reverse camber park giblets scream berm hammerhead moguls stoked butter wheelie.</p>
-                </Col>
-            </Row>
-            
-        </Container>
+
+        </>
     )
 }
 
