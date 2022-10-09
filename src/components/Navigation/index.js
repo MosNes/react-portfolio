@@ -17,7 +17,7 @@ function Navigation(props) {
   return (
     <div>
       <Navbar {...props}>
-        <NavbarBrand href="/" className='navTitle fw-semibold'>J Moses Nester</NavbarBrand>
+        <NavbarBrand href="https://mosnes.github.io/portfolio/" className='navTitle fw-semibold'>J Moses Nester</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
