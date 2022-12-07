@@ -38,7 +38,7 @@ const Resume = () => {
                 
 			</Row>
             <div className="mt-4 mb-4">
-            <a href="#" className="text-decoration-none linkText"><h5>Download Resume</h5></a>
+            <a href="https://drive.google.com/file/d/1ZKb6NmL-aXk0s2NjKd-LcSiA00bfFtX0/view?usp=share_link" className="text-decoration-none linkText"><h5>Download Resume</h5></a>
             </div>
 		</Container>
 	);
