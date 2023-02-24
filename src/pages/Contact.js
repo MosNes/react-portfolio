@@ -51,9 +51,23 @@ const Contact = () => {
 		}
 	}
 
-	function handleSubmit(e) {
+	async function handleSubmit(e) {
 		e.preventDefault();
-		console.log(formState);
+		try {
+
+			const response = await fetch('https://script.google.com/macros/s/AKfycbx3hSMKlH21zi4Ul_nZPPNdNaA-DJ3Jha-AZ2HFeKzXzRLRABCGpeb5awdOUVa7_E6ELQ/exec', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify(formState),
+			});
+			console.log(response.json());
+			return response.json();
+
+		} catch(err) {
+			console.log(err)
+		}
 	}
 
     //---------------------COMPONENT--------------------------------------------------------------------------------------
