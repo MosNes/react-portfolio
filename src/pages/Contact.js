@@ -55,15 +55,13 @@ const Contact = () => {
 		e.preventDefault();
 		try {
 
-			const response = await fetch('https://script.google.com/macros/s/AKfycbx3hSMKlH21zi4Ul_nZPPNdNaA-DJ3Jha-AZ2HFeKzXzRLRABCGpeb5awdOUVa7_E6ELQ/exec', {
+			const response = await fetch('https://us-central1-portfolio-site-contact-mailer.cloudfunctions.net/sendMail', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
 				},
 				body: JSON.stringify(formState),
 			});
-			console.log(response.json());
-			return response.json();
 
 		} catch(err) {
 			console.log(err)
