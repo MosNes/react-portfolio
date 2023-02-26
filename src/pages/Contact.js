@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
-import { Input, Form, FormGroup, Label, Container, Button } from 'reactstrap';
+import { Input, Form, FormGroup, Label, Container, Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 const Contact = () => {
 	//------------------- STATE VARIABLES -------------------------------------
@@ -16,6 +16,9 @@ const Contact = () => {
 
 	//destructure formState into 3 variables
 	const { name, email, message } = formState;
+
+	//modal state
+	const [modal, setModal] = useState(false);
 
 	//------------------- EVENT HANDLERS --------------------------------------
 
@@ -63,10 +66,21 @@ const Contact = () => {
 				body: JSON.stringify(formState),
 			});
 
+			if (response.ok) {
+
+				//clear form values
+				e.target.reset();
+				//show modal
+				toggle();
+			}
+
 		} catch(err) {
 			console.log(err)
 		}
 	}
+
+	//handles modal toggle
+	const toggle = () => setModal(!modal);
 
     //---------------------COMPONENT--------------------------------------------------------------------------------------
 
@@ -100,6 +114,15 @@ const Contact = () => {
                 <Button>
                     Submit
                 </Button>
+				<Modal isOpen={modal} toggle={toggle}>
+					<ModalHeader toggle={toggle}>Thank You!</ModalHeader>
+					<ModalBody>
+						<p>Thanks for reaching out! I'll follow up with you via email soon.</p>
+					</ModalBody>
+					<ModalFooter>
+						<Button onClick={toggle}>Close</Button>
+					</ModalFooter>
+				</Modal>
             </Form>
         </Container>
     )
