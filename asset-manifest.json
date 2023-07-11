@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.c5a52eb0.css",
-    "main.js": "/react-portfolio/static/js/main.e4925737.js",
+    "main.js": "/react-portfolio/static/js/main.fb343916.js",
     "static/js/787.c4e7f8f9.chunk.js": "/react-portfolio/static/js/787.c4e7f8f9.chunk.js",
     "static/media/Banner_Illustration.jpg": "/react-portfolio/static/media/Banner_Illustration.0344db9ada872d5c83d4.jpg",
     "static/media/5.jpg": "/react-portfolio/static/media/5.d4fdb4551348e9eb3b7d.jpg",
@@ -12,16 +12,17 @@
     "static/media/Headshot.jpg": "/react-portfolio/static/media/Headshot.3bd16b9fa773152ffe44.jpg",
     "static/media/3.jpg": "/react-portfolio/static/media/3.2db49012340e5bb2ccd1.jpg",
     "static/media/1.jpg": "/react-portfolio/static/media/1.955bbad8df79a6e99d2d.jpg",
+    "static/media/7.JPG": "/react-portfolio/static/media/7.820404b2590f39d3120c.JPG",
     "static/media/linkedin-logo-white-1024x1024.png": "/react-portfolio/static/media/linkedin-logo-white-1024x1024.311fc69e888c68190877.png",
     "static/media/2.jpg": "/react-portfolio/static/media/2.3bea8316051f21cf79a2.jpg",
     "static/media/Github-Logo-White.png": "/react-portfolio/static/media/Github-Logo-White.121b9bf0bce8df37c16f.png",
     "index.html": "/react-portfolio/index.html",
     "main.c5a52eb0.css.map": "/react-portfolio/static/css/main.c5a52eb0.css.map",
-    "main.e4925737.js.map": "/react-portfolio/static/js/main.e4925737.js.map",
+    "main.fb343916.js.map": "/react-portfolio/static/js/main.fb343916.js.map",
     "787.c4e7f8f9.chunk.js.map": "/react-portfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5a52eb0.css",
-    "static/js/main.e4925737.js"
+    "static/js/main.fb343916.js"
   ]
 }
