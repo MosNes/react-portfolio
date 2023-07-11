@@ -6,6 +6,15 @@ const Portfolio = () => {
 	// --------------------------- HOOKS / STATE VARIABLES -------------------------------------
 	const projects = [
 		{
+			name: 'Chat App Demo',
+			description:
+				'A simple chat app created with React and Socket.io',
+			githubUrl: 'https://github.com/MosNes/chat-demo',
+            deployedUrl: 'https://mosnes-chat-demo-3311766bf952.herokuapp.com/',
+			imageFile: '7.jpg',
+            id: 7
+		},
+		{
 			name: 'Football Fantasy',
 			description:
 				'An app that allows you to create your own fantasy football league with friends. Pick your favorite players, draft them to your team and defeat your friends.',
